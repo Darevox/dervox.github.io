@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="dist/css/style.css">
 	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <style>
+     html {
+       scroll-behavior: smooth;
+     }
+    </style>
 </head>
 <body class="is-boxed has-animations">
     <div class="body-wrap">
@@ -17,8 +22,8 @@
                 <div class="site-header-inner">
                     <div class="brand header-brand">
                         <h1 class="m-0">
-							<a href="#">
-								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+						  <a href="#">
+							<img class="header-logo-image" src="dist/images/logo.svg"    width="64" height="64" alt="Logo">
                             </a>
                         </h1>
                     </div>
@@ -33,7 +38,7 @@
 						<div class="hero-copy">
 	                      <h1 class="hero-title mt-0">Welcome to Dervox - Your Tech Solutions Partner</h1>
 	                        <p class="hero-paragraph"> At Dervox, we are more than just a tech company; we are your trusted partner in navigating the digital landscape. We specialize in delivering comprehensive technical solutions tailored to meet the unique needs of enterprises and businesses.</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="#">Contact US</a></div>
+	                        <div class="hero-cta"><a class="button button-primary" href="#about-section" >Contact US</a></div>
 						</div>
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -124,18 +129,46 @@
                           <h2 class="section-title mt-0">Why Dervox?</h2>
                           <p class="section-paragraph mb-0">At Dervox, we believe in the transformative power of technology. Our commitment is to empower your business with solutions that drive growth, innovation, and success. Partner with us, and let's shape the future together.</p>
                         </div>
-
                     </div>
                 </div>
             </section>
 
-			<section class="cta section">
-				<div class="container">
-					<div class="cta-inner section-inner">
-					  <h3 class="section-title mt-0">Ready to embark on a journey of digital excellence? Contact us today and discover the Dervox advantage.</h3>
-						<div class="cta-cta">
-							<a class="button button-primary button-wide-mobile" href="#">Contact US</a>
-						</div>
+			<section class="pricing section" id="about-section">
+              <div class="container-sm">
+                <div class="pricing-header text-center">
+
+
+                  <h3 class="section-title mt-0 mb-24"   >Contact us today and discover the Dervox advantage.</h3>
+				    <div class="cta-inner section-inner">
+
+                      <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                  <div class="feature-icon">
+									<img src="dist/images/mark-location-symbolic.svg"  height="64" width="64" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Location</h4>
+                                    <p class="text-sm mb-0">COSINAP ، Sidi Slimane</p>
+                                </div>
+                         </div>
+                            <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                  <div class="feature-icon">
+									<img src="dist/images/phone-old-symbolic.svg"  height="64" width="64" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Phone</h4>
+                                    <p class="text-sm mb-0">+212649-458819</p>
+                                </div>
+                            </div>
+                               <div class="feature text-center is-revealing">
+                                <div class="feature-inner">
+                                  <div class="feature-icon">
+									<img src="dist/images/mail-message-new-symbolic.svg"  height="64" width="64" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title mt-24">Email</h4>
+                                    <p class="text-sm mb-0">contact@dervox.com</p>
+                                </div>
+                               </div>
+                    </div>
 					</div>
 				</div>
 			</section>
@@ -145,22 +178,22 @@
             <div class="container">
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
-						<a href="#">
-							<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+					  <a href="#">
+						<img class="header-logo-image" src="dist/images/logo.svg" width="32" height="32"  alt="Logo">
 						</a>
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#about-section">Contact</a>
                         </li>
                         <li>
                             <a href="#">About us</a>
                         </li>
                         <li>
-                            <a href="#">FAQ's</a>
+                          <a href="#about-section">FAQ's</a>
                         </li>
                         <li>
-                            <a href="#">Support</a>
+                          <a href="#about-section">Support</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
